@@ -1,30 +1,30 @@
 # Soil Moisture Sensor & App.
 
 # How To Use:
-1.Open the file in Arduino IDE.
-2.Connect the ESP 8266 WiFI Module to correct port.
-3.Change the wifi SSID and Password to your personal one.
-4.Now upload the code.
-5.When uploading is completed, open serial plotter to see the reading.
-6.Place the sensors in the soil near the roots.
-7.Now install the app.
-8.When app is opened.
-9.Select Start new crop or continue previous crop. 
-10.Accept the Crop by list of name. (For demo, add 2 crops In database. With 1st crops range of suitable moisture 30-50 and 2nd’s range 50-70. 
-11.Accept the type of water resources.(i.e well,river, cannal, etc by selecting options)
-12.Accept the type of land.
-13.Accept type of irrigation. (i.e drip, pipe,cannal etc.by selecting options)
-14.Accept size of pipe and motar power. 
-15.Accept time for electricity avaliblity
-16.Store all this in database
+1.Open the file in Arduino IDE.<br>
+2.Connect the ESP 8266 WiFI Module to correct port.<br>
+3.Change the wifi SSID and Password to your personal one.<br>
+4.Now upload the code.<br>
+5.When uploading is completed, open serial plotter to see the reading.<br>
+6.Place the sensors in the soil near the roots.<br>
+7.Now install the app.<br>
+8.When app is opened.<br>
+9.Select Start new crop or continue previous crop. <br>
+10.Accept the Crop by list of name. (For demo, add 2 crops In database. With 1st crops range of suitable moisture 30-50 and 2nd’s range 50-70. <br>
+11.Accept the type of water resources.(i.e well,river, cannal, etc by selecting options)<br>
+12.Accept the type of land.<br>
+13.Accept type of irrigation. (i.e drip, pipe,cannal etc.by selecting options)<br>
+14.Accept size of pipe and motar power. <br>
+15.Accept time for electricity avaliblity<br>
+16.Store all this in database<br>
 17.Accept data from ESP8266 wifi module, about the %of moisture
-content . Store it in database. 
-18.Calculate rate of decrease of moisture % using last 24hr readings. (i.e 1st reading - 2nd reading / Time between those readings. 
-19.Display number of sensors by their name.(3 sensors)
+content . Store it in database. <br>
+18.Calculate rate of decrease of moisture % using last 24hr readings. (i.e 1st reading - 2nd reading / Time between those readings.<br> 
+19.Display number of sensors by their name.(3 sensors)<br>
 20.When clicked on their name it will display the current % of moisture, list of previous 5 readings , time when will the % go below the
-suitable set range % of the crop.
+suitable set range % of the crop.<br>
 
-![WhatsApp Image 2021-04-08 at 10 06 50 PM (1)](https://user-images.githubusercontent.com/82075825/114066213-1a25f900-98b9-11eb-901e-cdc489e0f7f1.jpeg)
+![WhatsApp Image 2021-04-08 at 10 06 50 PM (1)](https://user-images.githubusercontent.com/82075825/114066213-1a25f900-98b9-11eb-901e-cdc489e0f7f1.jpeg)<br>
 ![WhatsApp Image 2021-04-08 at 10 06 50 PM](https://user-images.githubusercontent.com/82075825/114066218-1b572600-98b9-11eb-8162-ca661e4a7767.jpeg)
 
 
